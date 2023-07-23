@@ -1,8 +1,4 @@
-[client] http requests -> [saver] saves to disk .csv and places job on redis through bull
-
-[consumer] worker listens to queue and saves .csv to mongodb
-
-[logger] logs to file (wip)
+![img.png](app_flow.png)
 
 ---
 mongodb
